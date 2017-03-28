@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<SexyContent FileVersion="07.00.00" MinimumRequiredVersion="07.00.00" ModuleVersion="08.12.00" ExportDate="2017-03-28T22:31:35.7163501+02:00">
+  <Header>
+    <App Guid="e66f1b19-68e2-4888-ae70-4e38c29a7b21" />
+    <Language Default="en-US" />
+    <Dimensions />
+  </Header>
+  <AttributeSets>
+    <AttributeSet StaticName="App-Resources" Name="App-Resources" Description="Stores resources like translations for an app" Scope="2SexyContent-App" AlwaysShareConfiguration="false">
+      <Attributes />
+    </AttributeSet>
+    <AttributeSet StaticName="App-Settings" Name="App-Settings" Description="Stores settings for an app" Scope="2SexyContent-App" AlwaysShareConfiguration="false">
+      <Attributes />
+    </AttributeSet>
+  </AttributeSets>
+  <Entities>
+    <Entity AssignmentObjectType="App" AttributeSetStaticName="2SexyContent-App" AttributeSetName="2SexyContent-App" EntityGUID="b22064c8-d1cf-4d09-a45e-2c6963f95d5d" KeyNumber="328">
+      <Value Key="DisplayName" Value="Angular4 Hello DNN" Type="String" />
+      <Value Key="Description" Value="" Type="String" />
+      <Value Key="Version" Value="01.00.00" Type="String" />
+      <Value Key="Folder" Value="Tutorial Angular4 Hello Dnn" Type="String" />
+      <Value Key="AllowTokenTemplates" Value="False" Type="Boolean" />
+      <Value Key="AllowRazorTemplates" Value="False" Type="Boolean" />
+      <Value Key="Hidden" Value="False" Type="Boolean" />
+      <Value Key="OriginalId" Value="e66f1b19-68e2-4888-ae70-4e38c29a7b21" Type="String" />
+      <Value Key="RequiredVersion" Value="08.03.00" Type="String" />
+      <Value Key="RequiredDnnVersion" Value="07.02.00" Type="String" />
+      <Value Key="SupportsAjaxReload" Value="False" Type="Boolean" />
+    </Entity>
+    <Entity AssignmentObjectType="App" AttributeSetStaticName="App-Settings" AttributeSetName="App-Settings" EntityGUID="6956135d-8238-401b-a942-d7f92f15b8ce" KeyNumber="328" />
+    <Entity AssignmentObjectType="App" AttributeSetStaticName="App-Resources" AttributeSetName="App-Resources" EntityGUID="a2194a6b-2176-4782-8729-7090959d14d4" KeyNumber="328" />
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="2SexyContent-Template" AttributeSetName="2SexyContent-Template" EntityGUID="d585950c-00d1-4c51-ba8c-3742429e9eb0">
+      <Value Key="Name" Value="Hello DNN" Type="String" />
+      <Value Key="Path" Value="views/Hello Dnn.html" Type="String" />
+      <Value Key="ContentTypeStaticName" Value="" Type="String" />
+      <Value Key="ContentDemoEntity" Value="" Type="Entity" />
+      <Value Key="PresentationTypeStaticName" Value="" Type="String" />
+      <Value Key="PresentationDemoEntity" Value="" Type="Entity" />
+      <Value Key="ListContentTypeStaticName" Value="" Type="String" />
+      <Value Key="ListContentDemoEntity" Value="" Type="Entity" />
+      <Value Key="ListPresentationTypeStaticName" Value="" Type="String" />
+      <Value Key="ListPresentationDemoEntity" Value="" Type="Entity" />
+      <Value Key="Type" Value="Token" Type="String" />
+      <Value Key="IsHidden" Value="False" Type="Boolean" />
+      <Value Key="Location" Value="Portal File System" Type="String" />
+      <Value Key="UseForList" Value="False" Type="Boolean" />
+      <Value Key="PublishData" Value="False" Type="Boolean" />
+      <Value Key="StreamsToPublish" Value="" Type="String" />
+      <Value Key="Pipeline" Value="" Type="Entity" />
+      <Value Key="ViewNameInUrl" Value="" Type="String" />
+    </Entity>
+  </Entities>
+  <PortalFiles />
+  <PortalFolders>
+    <Folder Id="1743" RelativePath="adam/Tutorial Angular4 Hello Dnn/" />
+  </PortalFolders>
+</SexyContent>
